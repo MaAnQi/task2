@@ -1,0 +1,140 @@
+body{
+	margin: 0; 
+	background-color: #eee; 
+	font-family:"微软雅黑"; 
+	font-size: 12px;
+	}
+	img{
+	 	display: block;
+	 	position: relative;
+	 	top: 0;
+	 	width: 95px;
+	 	height: 100px;
+	 }
+
+.header{
+	background-color:rgba(0,0,0,0.7); 
+	position: absolute;
+	top: 0px;
+	height: 70px;
+	width: 100%;
+	}
+footer{
+	background: #000; 
+	color: #fff; 
+	text-align: center;
+	line-height: 4em;
+	 }
+.main, .page{
+	width: 1000px;
+	margin: 0 auto;
+	}
+#pp{
+	width: 200px;
+	margin-top:-20px;
+	margin left: 0px;
+	}
+.main {
+	position: relative;
+	}
+#daohang{
+	margin: 0; 
+	padding-right:2px;
+	padding-left: 2px;
+	position: absolute;
+    right: -20px; 
+    top: 50%; 
+    margin-top:-8px; 
+    }
+#daohang li{
+	float: left;
+	margin-left: 10px;
+	margin-right:15px;
+	 }
+#daohang a{
+	color: #fff; 
+	text-decoration: none;
+	}
+article{
+	padding: 20px; 
+	margin-top: 20px; 
+	background-color: #fff; 
+	box-shadow: 2px 2px 2px #aaa;
+	}
+h3{
+	color: #777;
+	}
+#h1, #h2{
+	color: #999;
+	}
+p{
+	text-indent: 2em;
+	font-size: 14px;
+}
+#picture{
+	list-style:none;
+	}
+#picture div{
+	width: 120px; 
+	border: 1px #ccc solid; 
+	box-sizing: border-box; 
+	padding: 0 10px 10px 10px; 
+	text-align: center; 
+	margin-bottom: 20px;
+	}
+#picture p{
+	text-indent: 0em;
+	font-size: 12px;
+	}
+table{
+	width: 100%; 
+	border-collapse:collapse;
+	}
+td{
+	padding:4px; 
+	border: 1px #ccc solid; 
+	}
+button{
+	font-size: 14px;
+	border-radius: 5px;
+	background-color:blue;
+	border: hidden;
+	color: white;
+	width: 100%;
+	height: 30px;
+	position: relative;
+	bottom: 40px;
+}
+
+
+#submit{ 
+	padding: 20px; 
+	padding-left: 130px;
+	margin-top: 20px; 
+	margin-bottom: 20px;
+	 
+	}
+input{
+	border: 1px #999999 solid;  
+	padding: 3px;
+	}
+.shu{
+	width: 30%;
+	display: inline-block; 
+	text-indent:13em; 
+	margin-right: 5px;
+	padding-bottom: 20px;
+	}
+.tishi{
+	margin-left: 30%; 
+	padding-left: 10px;
+	padding-bottom: 25px;
+	}
+textarea{
+	height: 80px; 
+	width: 500px; 
+	position: relative;
+	left: 260px;
+	bottom: 50px;
+	text-indent: -16em;
+}
